@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }).addTo(travelMap);
 
     var locations = [
-        {name: "Bali", coords: [8.6705, 115.2126]},
+        {name: "Bali", coords: [8.4095, 115.1889]},
         {name: "Istanbul", coords: [41.0082, 28.9784]},
     ];
 
