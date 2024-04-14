@@ -7,7 +7,7 @@ body {
     background-color: #f4f4f4;
 }
 
-header, footer, article, aside {
+header, footer, article, aside, #travelMap {
     margin: 20px;
     padding: 20px;
     background: white;
@@ -30,8 +30,14 @@ nav ul li {
 }
 
 img {
-    width: 100%;
+    width: 100%; /* Responsive image */
     height: auto;
+}
+
+#travelMap {
+    height: 400px;
+    width: calc(100% - 40px);
+    margin-top: 20px;
 }
 
 @media (max-width: 600px) {
